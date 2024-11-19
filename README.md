@@ -15,3 +15,6 @@ Now we will use (2) to create training dataset, build custom loss function accor
 ### Training Data Generation
 
 Let’s create our training data first. The sampling domain was set to be $(x,t)\in[-5,5]\times[0,0.2]$
+
+### Reference
+https://lazyjobseeker.github.io/en/posts/physics-informed-neural-network-tutorials/#training-model-with-pinn
