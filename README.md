@@ -16,5 +16,8 @@ Now we will use (2) to create training dataset, build custom loss function accor
 
 Let’s create our training data first. The sampling domain was set to be $(x,t)\in[-5,5]\times[0,0.2]$
 
+### Conclusion
+Using PINN can achieve good results faster within the same number of iterations. The LBFGS optimization algorithm can further optimize the loss based on Adam and achieve better results, but the running speed will be much slower than Adam.
+
 ### Reference
 https://lazyjobseeker.github.io/en/posts/physics-informed-neural-network-tutorials/#training-model-with-pinn
